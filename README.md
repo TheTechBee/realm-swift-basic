@@ -14,6 +14,8 @@ myDog.health = "Good"
 let realm = try! Realm()
 
 // Persist your data easily
+
+
 try! realm.write {
     realm.add(myDog)
 }
